@@ -47,7 +47,7 @@ function App() {
       <div className="container my-5">
       <Routes>
         <Route path="/about" element={<About />}/>
-        <Route path="/text-utiles" element={<TextArea mode={mode} showAlert={showAlert}/>}/>
+        <Route path="/" element={<TextArea mode={mode} showAlert={showAlert}/>}/>
       </Routes>
       </div>
     </Router>
